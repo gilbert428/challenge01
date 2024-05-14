@@ -21,10 +21,6 @@ def count_ash_trees(tree_data)
       ash_tree_count += 1
     elsif tree['scientific_name']&.downcase&.include?('fraxinus')
       ash_tree_count += 1
-    # elsif tree['genus']&.downcase == 'fraxinus'
-    #   ash_tree_count += 1
-    # elsif tree['species']&.downcase&.include?('ash')
-    #   ash_tree_count += 1
     end
   end
 
