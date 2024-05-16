@@ -1,16 +1,19 @@
+# Program by:Gilbert Lagman
+# Date : May 15, 2024
+# Description : Using open data
+
 require 'net/http'
 require 'json'
 
 url = 'https://data.winnipeg.ca/resource/d3jk-hb6j.json?$limit=306000'
-#uri = URI(url)
-#response = Net::HTTP.get(uri)
-#tree_data = JSON.parse(response)
+
 
 def get_tree_data(url)
   uri = URI(url)
   response = Net::HTTP.get(uri)
   JSON.parse(response)
 end
+
 
 
 def count_ash_trees(tree_data)

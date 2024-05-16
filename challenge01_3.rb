@@ -1,3 +1,7 @@
+# Program by:Gilbert Lagman
+# Date : May 15, 2024
+# Description : Script that uses the JSON provided by the dog.ceo API to print out a nicely formatted list of dog breeds and sub-breeds.
+
 require 'net/http'
 require 'json'
 

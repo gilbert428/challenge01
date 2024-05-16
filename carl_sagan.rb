@@ -1,3 +1,7 @@
+# Program by:Gilbert Lagman
+# Date : May 15, 2024
+# Description : see below
+
 # Using a single puts statement build the following
 # sentence using only data from the carl hash and the
 # sagan array along with some string interpolation.
